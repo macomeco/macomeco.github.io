@@ -1,0 +1,157 @@
+.front{
+    position:absolute;
+    background-color:#70B994;
+    z-index:1;
+    transition-timing-function: ease;
+}
+.solid-box{
+    margin-top:20%;
+    border: solid 10px beige;
+    border-radius:5px;
+    color:beige;
+}
+.click-me{
+    font-size:30px;
+    color:#ec7b7c;
+    display:none;
+}
+.solid-box:hover {
+    transition:0.5s;
+    color: #ec7b7c;
+    border-color: #ec7b7c;
+}
+.nav{
+    width:100vw;
+    position: fixed;
+    margin: 0;
+}
+.nav-menu{
+    padding:0;
+}
+.menu-list{
+    list-style:none;
+    width:100%;
+    padding:0;
+    margin:0;
+    height:30%;
+}
+.menu-list li{
+    padding:20px 15px;
+    font-size:20px;
+    display: inline-block;
+}
+.menu-btn{
+    color: #70B994;
+    font-weight: bold;
+    font-size:20px;
+}
+.profile-btn{
+    color:#ec7b7c;
+}
+/*コンテンツ*/
+.content-field{
+    position: fixed;
+    width: 100vw;
+    top: 20%;
+    height: 100%;
+}
+.title{
+    position:relative;
+    left:50px;
+}
+
+/*about me*/
+.profile,.learned{
+    position:relative;
+    left:100px;
+}
+.skill{
+    position:relative;
+    right:100px;
+}
+.profile-list,.skill-list,.learned-list{
+    list-style:none;
+}
+.skill-list{
+    color:beige;
+}
+.skill-graph{
+    background-color: #ec7b7c;
+    border-radius: 50px 0px 0px 50px;
+    padding-right:10px;
+}
+
+/*webapp*/
+.webapp-list{
+    list-style:none;
+}
+.webapp-ex{
+    position:relative;
+    left:100px;
+}
+
+/*3d game*/
+.mp4{
+    width:550px;
+    display:none;
+}
+.game-ex{
+    position:relative;
+    left:100px;
+}
+.game-list{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+/*illustration*/
+.illust-img{
+    border-radius: 50% 50% 50% 50%;
+    border: solid 5px #70B994;/*#70B994 #ec7b7c*/
+}
+.illust-img:hover{
+    transition:0.5s;
+    border: solid 5px #ec7b7c;/*#70B994 #ec7b7c*/
+}
+
+/*etc*/
+.gs,.other{
+    position:relative;
+    left:100px;
+}
+.team-pj{
+    position:relative;
+    right:100px;
+}
+.gs-list,.other-list,.team-pj-list{
+    list-style: none;
+}
+
+
+/*背景*/
+.bg{
+    position: relative;
+    z-index:-1;
+    width:100vw;
+    margin:0;
+    height: 100vh;
+}
+.content-name{
+    font-size:70px;
+    transform :rotate(-90deg);
+    position:absolute;
+    top:350px;
+    right:-100%;
+    width:100vh;
+    color:white;
+}
+.content-name-col{
+    transition: 1.5s;
+    padding:0;
+    background-color: #70B994;
+}
+.content-main{
+    padding:0;
+    background-color:beige;
+}
